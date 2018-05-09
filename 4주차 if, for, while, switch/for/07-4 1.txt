@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int x, y, z, sum;
+
+	printf("두 개의 정수를 입력하시오(두번째가 더 크게):");
+	scanf_s("%d %d", &x, &y);
+
+	sum = 0;
+	for (z = x; z <= y; z++)
+		sum = sum + z;
+	
+
+	printf("%d에서 %d까지의 합은 %d입니다.\n", x, y, sum);
+
+	return 0;
+}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int M4, SOPMODII;
+
+	printf("두 정수를 입력:");
+	scanf_s("%d %d", &M4, &SOPMODII);
+
+	printf("%d", (M4 > SOPMODII) ? M4 - SOPMODII : SOPMODII - M4);
+
+	return 0;
+}
